@@ -1,0 +1,168 @@
+body{
+	font-family: 'Source Sans Pro';
+}
+p{
+	color: #777;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;	
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 1px 5px #999;
+	z-index: 99;
+}
+#main-logo{
+	width: 100%;
+	background-color: lightgreen;	
+	margin: 0;	
+	padding: 0;
+}
+#main-logo > a{
+	font-size: 26px;
+	font-size: 2.6rem;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#main-logo > a > span{
+	font-size: 20px;
+	font-size: 2.0rem;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#main-menu{
+	float: right;
+	margin-top: 2.0em;
+}
+#main-menu a{
+	color: #aaa;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+#main-menu a:hover{
+	color: lightgreen;
+}
+.dropdown-menu li a{
+	line-height: 25px;
+}
+#info{
+	margin-top:100px;
+	margin-top: 10.0rem;
+}
+#info1{
+	background-image: url("../img/workshop1.jpg");
+	width: 100%;
+}
+#info2{
+	background-image: url("../img/workshop2.jpg");
+}
+.class-info{
+	width: 100%;
+	background-position: 0 0;
+	padding: 30px;
+	padding: 3.0em;
+}
+.class-info p{
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+.data-left{
+	float:left;
+	clear: left;
+	text-align: left;
+	color: #aaa;
+}
+.data-left p{
+	color: #ddd;
+}
+.data-right{
+	float:right;
+	clear: right;
+	text-align: right;
+	color: #ddd;
+}
+.data-right p{
+	color: #aaa;
+}
+.info-left h3{
+	float: right;
+	clear: right;
+	color: white;
+	background-color: #666;
+	padding: 8px;
+    padding: 0.8rem;
+
+}
+.info-right h3{
+	float: left;
+	clear: left;
+
+	background-color: #666;
+	padding: 8px;
+    padding: 0.8rem;
+
+}
+.highlighted{	
+	margin: 2px;
+    margin: 0.2rem;
+	line-height: 5px;
+	line-height: 0.5rem;
+}
+#main-footer{
+	clear: both;
+	background-color: #333;
+}
+#main-footer h3{
+	color: #fff;
+	font-size: 22px;
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+#main-footer a{
+	color: #aaa;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-decoration: none;
+}
+#main-footer a:hover{
+	color: lightgreen;
+	text-decoration: none;
+	font-weight:600;
+}
+#main-footer p{
+	color: #ddd;
+	font-weight:600;
+}
+#main-footer label{
+	color: #aaa;
+	font-size: 18px;
+	font-size: 1.8rem;
+	margin-right: 15px;	
+}
+#main-footer input{
+	color: #ccc;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 400;
+}
+#main-footer button{
+	color: #333;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	float: left;
+}

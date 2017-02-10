@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="jquery-1.10.2.min.js"></script>
+    <style type="text/css">
+        .active{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="taps">
+            <div class="tab-panel">
+                <ul class="tabs">
+                    <li class="list-tap active" data-elem="elem1">
+                        Elemneto1
+                    </li>
+                    <li class="list-tap" data-elem="elem2">
+                        Elemneto2
+                    </li>
+                    <li class="list-tap" data-elem="elem3">
+                        Elemneto3
+                    </li>
+                    <li class="list-tap" data-elem="elem4">
+                        Elemneto4
+                    </li>
+                </ul>
+                <div id="elem1" class="data" style="display:none" >
+                   Hello World 1Hello World 1Hello World 1
+                </div>
+                <div id="elem2" class="data" style="display:none" >
+                    Hello World 2Hello World 1Hello World 2
+                </div>
+                <div id="elem3" class="data" style="display:none">
+                    Hello World 3Hello World 1Hello World 3
+                </div>
+                <div id="elem4" class="data" style="display:none">
+                    Hello World 4Hello World 1Hello World 4
+                </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+    	alert();
+        $('.list-tap').click(function () {            
+            var list = $(this).attr('data-elem');
+            $('.list-tap').removeClass('active');
+            $(this).addClass('active');
+            $('.data').hide();
+            $('#' + list).show();
+        });
+    });
+</script>
+</html>
