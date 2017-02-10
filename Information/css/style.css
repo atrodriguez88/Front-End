@@ -40,6 +40,7 @@ header{
 	font-weight: 600;
 	padding-left: 10px;
 	padding-right: 10px;
+	color: white;
 }
 #main-logo > a > span{
 	font-size: 20px;
@@ -47,6 +48,7 @@ header{
 	display: block;
 	padding-left: 10px;
 	padding-right: 10px;
+	color: white;
 }
 #main-menu{
 	float: right;
@@ -64,7 +66,7 @@ header{
 	line-height: 25px;
 }
 #info{
-	margin-top:72px;
+	margin-top:72px;	
 	margin-top: 7.2rem;
 }
 #info1{
@@ -115,8 +117,14 @@ header{
 	color: #ddd;
 }
 .data-left a{
-	color: #aaa;
+	color: #ddd;
+	border-radius: 1px;
+	padding: inherit;	
 }
+.btn{
+	background-color: #aaa;
+}
+
 .data-left a:hover{
 	color: lightblue;
 }
@@ -135,6 +143,8 @@ header{
 }
 .data-right a{
 	color: #ddd;
+	border-radius: 1px;
+	padding: inherit;
 }
 .data-right a:hover{
 	color: lightblue;
@@ -156,6 +166,14 @@ header{
 	padding: 8px;
     padding: 0.8rem;
 
+}
+.date-info1 h3{
+	background-color: #666;
+	opacity: 0.6;
+}
+.date-info2 h3{
+	background-color: #aaa;
+	opacity: 0.6;
 }
 .highlighted{	
 	margin: 2px;
