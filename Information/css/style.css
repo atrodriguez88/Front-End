@@ -146,7 +146,6 @@ header {
 
 .data-left {
     float: left;
-    clear: left;
     text-align: left;
     color: #aaa;
     line-height: normal;
@@ -281,41 +280,67 @@ header {
     font-size: 16px;
     font-size: 1.6rem;
     font-weight: 600;
-    float: left;
 }
-@media screen and (max-width: 469px) and (min-width: 200px) {
-#main-logo{
-		width: 30%;
-		background-color: #aaa;		
-	}
-	#main-menu{
-		text-align: center;
-    float: initial;
-	}
-	#main-menu li{
-		box-shadow: 0 1px 2px #ddd;
-	}
-	#main-logo a{
-		font-size: 12px;
-	}
-	.dropdown-menu li{
-		text-align: center;
-		box-shadow: 0;
-	}
-	
+
+@media screen and (max-width: 434px) and (min-width: 290px) {
+    #main-logo {
+        width: 30%;
+        background-color: #aaa;
+    }
+    #main-menu {
+        text-align: center;
+        float: initial;
+    }
+    #main-menu li {
+        box-shadow: 0 1px 2px #ddd;
+    }
+    #main-logo a {
+        font-size: 12px;
+    }
+    .dropdown-menu li {
+        text-align: center;
+        box-shadow: 0;
+    }
+    .info-left h3 {
+        float: left;
+        font-size: smaller;
+    }
+    .info-right h3 {
+        float: left;
+        font-size: smaller;
+        clear: right;
+    }
+    .info-left h2 {
+        font-size: 20px;
+    }
+    .info-right h2 {
+        font-size: 20px;
+    }
+    .class-info {
+        padding: 15px;
+        padding: 1.5em;
+    }
+    .class-info p {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+    #btn-inv {
+        width: 100%;
+    }
 }
-@media screen and (max-width: 767px) and (min-width: 470px) {
-	#main-logo{
-		width: 35%;
-		background-color: #aaa;		
-	}	
-	#main-menu{
-		text-align: center;
-    float: initial;
-	}
-	#main-menu li{
-		box-shadow: 0 1px 2px #ddd;
-	}
+
+@media screen and (max-width: 767px) and (min-width: 435px) {
+    #main-logo {
+        width: 35%;
+        background-color: #aaa;
+    }
+    #main-menu {
+        text-align: center;
+        float: initial;
+    }
+    #main-menu li {
+        box-shadow: 0 1px 2px #ddd;
+    }
     #main-menu a {
         padding-left: 0;
         padding-right: 15px;
@@ -323,23 +348,37 @@ header {
         display: block;
         text-transform: uppercase;
     }
-    .dropdown-menu li{
-		text-align: center;
-		box-shadow: 0;
-	}
+    .dropdown-menu li {
+        text-align: center;
+        box-shadow: 0;
+    }
+    .highlighted {
+        font-size: 18px;
+    }
+    .info-left h3 {
+        float: left;
+    }
+    .info-right h3 {
+        float: left;
+        clear: right;
+    }
+    #btn-inv {
+        width: 40%;
+    }
 }
+
 @media screen and (max-width: 992px) and (min-width: 768px) {
     #main-menu a {
-        padding-left: 10px; 
-        padding-left: 1.0rem;
+        padding-left: 20px;
+        padding-left: 0.2rem;
+    }
+    .highlighted {
+        font-size: 18px;
     }
 }
 
 @media screen and (min-width: 992px) {
-	#main-menu a {
-        
-    }
+    #main-menu a {}
 }
 
 @media screen and (min-width: 1400px) {}
-
