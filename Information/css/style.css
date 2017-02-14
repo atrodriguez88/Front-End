@@ -282,7 +282,11 @@ header {
     font-weight: 600;
 }
 
-@media screen and (max-width: 434px) and (min-width: 290px) {
+.fon{
+	background-color: #e7e7e7;
+}
+
+@media screen and (max-width: 434px) and (min-width: 270px) {
     #main-logo {
         width: 30%;
         background-color: #aaa;
@@ -366,7 +370,6 @@ header {
         width: 40%;
     }
 }
-
 @media screen and (max-width: 992px) and (min-width: 768px) {
     #main-menu a {
         padding-left: 0.8px;
