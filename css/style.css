@@ -1,0 +1,400 @@
+body {
+    font-family: serif;
+    min-width: 100px;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    height: 5.0em;
+    background-color: #333;
+    box-shadow: 0 1px 5px #999;
+    z-index: 99;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+    margin-top: 2.0rem;
+}
+
+#main-logo {
+    width: 100%;
+    height: 2.0em;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#main-logo > a {
+    font-size: 26px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+#main-logo > a > span {
+    font-size: 20px;
+    font-size: 2.0rem;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+#main-menu {
+    float: right;
+    margin-top: 1.0rem;
+}
+
+#main-menu a {
+    color: #333;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+#main-menu a:hover {
+    color: #aaa;
+}
+
+.dropdown-menu li a {
+    line-height: 25px;
+}
+
+
+/*Menu Movil*/
+
+#menu-movile-button {
+    float: right;
+    width: 40px;
+    width: 4.0rem;
+    margin: 20px 0;
+    margin: 2.0rem 0;
+}
+
+#main-movil-menu {
+    display: none;
+}
+
+#main-movil-menu a {
+    display: block;
+}
+
+#info {
+    margin-top: 72px;
+    margin-top: 7.2rem;
+}
+
+#info1 {
+    background-image: url("../img/workshop1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    max-width: 100%;
+    
+     height: 400px;
+    height: 40.0rem;
+}
+
+#info2 {
+    background-image: url("../img/workshop2.jpg");
+    background-repeat: space;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    height: 40.0rem;
+    
+    display: block;
+    max-width: 100%;
+}
+
+.class-info {
+    width: 100%;
+    background-position: 0 0;
+    padding: 30px;
+    padding: 3.0em;
+}
+
+.class-info h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.class-info p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.class-info a {
+    padding: 0;
+    margin-right: 10px;
+    margin-right: 1.0rem;
+}
+
+.data-left {
+    float: left;
+    text-align: left;
+    color: rgba(0,0,0,2);    
+    line-height: normal;
+}
+
+.data-left p {
+    color: rgba(0,0,0,2);
+    font-weight: bold;
+}
+
+.data-left p a {
+    color: #aaa;
+}
+
+.data-left a {
+    color: #ddd;
+    border-radius: 1px;
+    padding: inherit;
+}
+
+.btn {
+    background-color: #aaa;
+}
+
+.data-left a:hover {
+    color: black;
+}
+
+.data-right {
+    float: right;
+    clear: right;
+    text-align: right;
+    color: rgba(0,0,0,2);  
+    line-height: normal;
+}
+
+.data-right p {
+    color: rgba(0,0,0,2);
+    font-weight: bold;
+}
+
+.data-right p a {
+    color: #aaa;
+}
+
+.data-right a {
+    color: #ddd;
+    border-radius: 1px;
+    padding: inherit;
+}
+
+.data-right a:hover {
+    color: black;
+}
+
+.info-left h3 {
+    float: right;
+    clear: right;
+    color: white;
+    background-color: #666;
+    padding: 8px;
+    padding: 0.8rem;
+}
+
+.info-right h3 {
+    float: left;
+    clear: left;
+    background-color: #666;
+    padding: 8px;
+    padding: 0.8rem;
+}
+
+.date-info1 h3 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.date-info2 h3 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.highlighted {
+    margin: 2px;
+    margin: 0.2rem;
+    line-height: 5px;
+    line-height: 0.5rem;
+}
+
+#main-footer {
+    clear: both;
+    background-color: #333;
+}
+
+#main-footer h3 {
+    color: #fff;
+    font-size: 22px;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#main-footer a {
+    color: lightblue;
+    font-size: 18px;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+#main-footer a:hover {
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#main-footer p {
+    color: #ddd;
+    font-weight: 600;
+}
+
+#main-footer label {
+    color: #aaa;
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-right: 15px;
+}
+
+#main-footer input {
+    color: #ccc;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#main-footer button {
+    color: #333;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.fon{
+	background-color: #e7e7e7;
+}
+
+@media screen and (max-width: 434px) and (min-width: 270px) {
+    #main-logo {
+        width: 30%;
+        background-color: #333;
+    }
+    #main-menu {
+        text-align: center;
+        float: initial;
+    }
+    #main-menu li {
+        box-shadow: 0 1px 2px #ddd;
+    }
+    #main-logo a {
+        font-size: 12px;
+    }
+    .dropdown-menu li {
+        text-align: center;
+        box-shadow: 0;
+    }
+    .info-left h3 {
+        float: left;
+        font-size: smaller;
+    }
+    .info-right h3 {
+        float: left;
+        font-size: smaller;
+        clear: right;
+    }
+    .info-left h2 {
+        font-size: 20px;
+    }
+    .info-right h2 {
+        font-size: 20px;
+    }
+    .class-info {
+        padding: 15px;
+        padding: 1.5em;
+    }
+    .class-info p {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+    #btn-inv {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 435px) {
+    #main-logo {
+        width: 35%;
+        background-color: #333;
+    }
+    #main-menu {
+        text-align: center;
+        float: initial;
+    }
+    #main-menu li {
+        box-shadow: 0 1px 2px #ddd;
+    }
+    #main-menu a {
+        padding-left: 0;
+        padding-right: 15px;
+        padding-right: 1.5rem;
+        display: block;
+        text-transform: uppercase;
+    }
+    .dropdown-menu li {
+        text-align: center;
+        box-shadow: 0;
+    }
+    .highlighted {
+        font-size: 18px;
+    }
+    .info-left h3 {
+        float: left;
+    }
+    .info-right h3 {
+        float: left;
+        clear: right;
+    }
+    #btn-inv {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    #main-menu a {
+        padding-left: 0.8px;
+        padding-left: 0.8em;
+    }
+    .highlighted {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #main-menu a {}
+}
+
+@media screen and (min-width: 1400px) {}
